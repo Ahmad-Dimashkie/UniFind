@@ -1,0 +1,55 @@
+.students-page .height-75 {
+    min-height: 75vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../utils/images/university-background.jpg') center/cover no-repeat;
+    color: white; /* Ensure text color is set to white */
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.students-page header h1, 
+.students-page header p {
+    color: white; /* Ensure text color is set to white */
+}
+
+.students-page .card {
+    border: none;
+    border-radius: 1rem;
+    transition: transform 0.2s;
+}
+
+.students-page .card:hover {
+    transform: scale(1.05);
+}
+
+.students-page .card .card-body {
+    padding: 2rem;
+}
+
+.students-page .card .card-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.students-page .card .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.students-page header {
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.students-page header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.students-page header p {
+    font-size: 1.25rem;
+}
+
+.students-page .bg-dark {
+    background-color: #333;
+}

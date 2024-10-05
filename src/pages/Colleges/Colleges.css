@@ -1,0 +1,31 @@
+.courses-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/courses-page-header.jpg);
+}
+
+.courses-page .card-img-overlay {
+    background-color: rgba(5, 10, 35, 0.7);
+}
+
+.courses-page .card:hover {
+    cursor: pointer;
+}
+
+.courses-page .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .courses-page .card img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .courses-page .card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  

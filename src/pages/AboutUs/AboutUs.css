@@ -1,0 +1,38 @@
+/* AboutUs.css */
+
+.about-us-page header {
+    background: url('../../utils/images/about-us-background.jpg') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .about-us-page .card {
+    transition: transform 0.3s;
+  }
+  
+  .about-us-page .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .about-us-page .container {
+    margin-top: 20px;
+  }
+  
+  .about-us-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-page p {
+    font-size: 1.1rem;
+  }
+  
+  .about-us-page ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .about-us-page ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
