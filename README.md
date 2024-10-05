@@ -24,12 +24,12 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/nadermasri/unifind.git
+    git clone https://github.com/Ahmad-Dimashkie/UniFind.git
     ```
 
 2. **Navigate to the Project Directory**:
     ```bash
-    cd unifind
+    cd UniFind
     ```
 
 3. **Install Dependencies**:
